@@ -6,11 +6,11 @@ public class Cliente {
     String dtnascimento;
     String cpf;
     int diasdevolver;
-    List<Locacao> locacoes = new ArrayList<>();
-    
-    Int Locacao(){
-            
- }
+    List<Locacao> locacao = new ArrayList<>();
+
+    Int Locacao() {
+
+    }
 
     void dadoscliente() {
         System.out.println("\n");
@@ -21,7 +21,7 @@ public class Cliente {
         System.out.println("Dias para devolução: " + this.diasdevolver);
     }
 
- // fazer filmes locados
+    // fazer filmes locados
     void filmeslocados() {
 
     }
